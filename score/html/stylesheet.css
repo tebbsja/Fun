@@ -1,0 +1,61 @@
+
+#left {
+  background-color: red;
+  height: 50%;
+}
+#clear {
+  position: absolute;
+  top: 48%;
+  left: 43vw;
+  z-index: 4;
+  width: 15vw;
+}
+#left-score {
+  height: 75%;
+  background-color: white;
+  top: 15%;
+  color: red;
+  font-size: 15em;
+  text-align: center;
+  line-height: 110%;
+}
+
+#right {
+  background-color: blue;
+  height: 50%;
+}
+
+#right-score {
+  height: 75%;
+  background-color: white;
+  top: 15%;
+  color: blue;
+  font-size: 15em;
+  text-align: center;
+  line-height: 110%;
+}
+
+html,body {
+  height: 100%;
+}
+@media screen and /* portrait */
+ (min-width : 768px) {
+    /* Styles */
+    #left {
+      background-color: yellow;
+    }
+}
+@media screen and /* landscape */
+ (min-width : 1024px) {
+    /* Styles */
+    #left {
+      background-color: black;
+    }
+}
+@media screen and
+ (min-width : 1200px) {
+    /* Styles */
+    #left {
+      background-color: green;
+    }
+}
